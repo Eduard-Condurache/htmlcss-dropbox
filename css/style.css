@@ -341,6 +341,45 @@ div input:last-of-type{
 
 }
 
+.section-5 .center-box {
+    background-color: #F5F5F5;
+}
+
+.section-5 .square-box .small-square5 {
+    width: 50%;
+    height: 50%;
+    background-color:#D5001F;
+    
+}
+
+.section-5 .square-box .small-square6 {
+    width: 50%;
+    height: 50%;
+    background-color: #B4D0E7;
+
+}
+
+.section-5 .square-box .small-square7 {
+    width: 50%;
+    height: 50%;
+    background-color: #0D2481;
+
+}
+
+.section-5 .square-box .small-square8 {
+    width: 50%;
+    height: 50%;
+    background-color: #FFD830;
+
+}
+
+.section-5 img {
+    display: flex;
+    padding: 50px;
+}
+  
+
+
 
 
 
