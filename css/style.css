@@ -284,6 +284,76 @@ div input:last-of-type{
     padding-top: 30px;
 }
 
+/* SECTION 4 */
+
+.section-4 {
+    margin-top: 150px;
+}
+
+.container-main .section-4 a {
+    padding-top: 30px;
+}
+
+/* SECTION 5 */
+
+.section-5 {
+    margin-top: 150px;
+} 
+
+.section-5 .big-box {
+    width: 100%;
+    display: flex;
+}
+
+.section-5 .square-box {
+    width: calc(100vw / 3);
+    height: calc(100vw / 3);
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.section-5 .square-box .small-square {
+    width: 50%;
+    height: 50%;
+    background-color:#A2D39B;
+    
+}
+
+.section-5 .square-box .small-square2 {
+    width: 50%;
+    height: 50%;
+    background-color: #61082B;
+
+}
+
+.section-5 .square-box .small-square3 {
+    width: 50%;
+    height: 50%;
+    background-color: #0093CE;
+
+}
+
+.section-5 .square-box .small-square4 {
+    width: 50%;
+    height: 50%;
+    background-color: #FF1C1C;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
