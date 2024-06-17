@@ -4,11 +4,45 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
 }
 
     /* GENERAL */
 
-.container {
+.container-header-footer {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container-main {
     max-width: 1000px;
     margin: 0 auto;
-}  
+}
+
+    /* HEADER */
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+.header-top ul {
+    display: flex;
+}
+
+.header-top ul li {
+    list-style-type: none;
+    margin-left: 35px;
+}
+
+.header-top ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.header-top > div:first-child {
+    display: flex;
+    align-items: center;
+}
