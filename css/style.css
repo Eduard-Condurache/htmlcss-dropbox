@@ -22,8 +22,7 @@
 .my-row {
     display: flex;
     flex-wrap: wrap;
-    margin-left: -25px;
-    margin-right: -25px;
+    margin: 0 -25px;
 }
 
 .my-col-30 {
@@ -58,6 +57,7 @@ img {
     border: none;
     font-size: 1rem;
     text-align: center;
+    cursor: pointer;
 }
 
 .container-main h1 {
@@ -65,12 +65,16 @@ img {
     padding: 40px 0;
 }
 
-.divider {
+.small-line {
     width: 25%;
     margin: 50px 0;
-    color: grey;
+    border: 1px solid gray;
+    opacity: 0.3;
 }
 
+.section-1, .section-2, .section-3, .section-4, .section-5, .section-6, .section-7 {
+    padding-top: 150px;
+}
 
     /* HEADER */
 
@@ -160,9 +164,6 @@ img {
 
 /* SECTION 1 */
 
-.container-main .section-1 {
-    margin-top: 150px;
-}
 
 div input:last-of-type{
     margin-bottom: 40px;
@@ -272,7 +273,6 @@ div input:last-of-type{
 
 .section-2 {
     display: flex;
-    margin-top: 150px;
 }
 
 .container-main .section-2 .my-col-40 {
@@ -292,10 +292,6 @@ div input:last-of-type{
 
 /* SECTION 3 */
 
-.section-3 {
-    margin-top: 150px;
-}
-
 .container-main .section-3 p {
     padding-top: 30px;
     padding-bottom: 30px;
@@ -303,19 +299,11 @@ div input:last-of-type{
 
 /* SECTION 4 */
 
-.section-4 {
-    margin-top: 150px;
-}
-
 .container-main .section-4 a {
     padding-top: 30px;
 }
 
 /* SECTION 5 */
-
-.section-5 {
-    margin-top: 150px;
-} 
 
 .section-5 .big-box {
     width: 100%;
@@ -416,10 +404,6 @@ img[src$=".svg"] {
 
 /* SECTION 7 */
 
-.section-7 {
-    margin-top: 150px;
-}
-
 .section-7 .container-main div{
     display: flex;
     justify-content: space-between;
@@ -437,7 +421,7 @@ footer {
 }
 
 #footer-top {
-    padding: 75px 0;
+    padding: 70px 0;
 }
 
 .footer-columns {
@@ -465,12 +449,13 @@ footer {
 }
 
 #footer-bottom {
-    padding: 40px 0;
+    padding-bottom: 40px;
 }
 
-.small-line {
+footer .small-line {
     border: 1px solid grey;
     width: 10%;
+    opacity: 1;
 }
 
 #footer-language {
