@@ -65,6 +65,13 @@ img {
     padding: 40px 0;
 }
 
+.divider {
+    width: 25%;
+    margin: 50px 0;
+    color: grey;
+}
+
+
     /* HEADER */
 
 
@@ -77,7 +84,7 @@ img {
     padding: 30px;
 }
 
-.header-top ul {
+.header-top ul  {
     display: flex;
 }
 
@@ -86,6 +93,7 @@ img {
     margin-left: 40px;
 }
 
+
 .header-top ul li a {
     text-decoration: none;
     color: black;
@@ -93,6 +101,20 @@ img {
 
 .header-top > div:first-child {
     display: flex;
+    align-items: center;
+}
+
+#button-header {
+    background-color:#0061FF;
+    padding: 5px 15px;
+    color: white;
+}
+
+#button-header a {
+    color: white;
+}
+
+.flex-center {
     align-items: center;
 }
 
@@ -218,12 +240,6 @@ div input:last-of-type{
     list-style-image: url(../img/check-solid.svg);
 }
 
-.table-content .divider {
-    width: 25%;
-    margin: 50px 0;
-    color: grey;
-}
-
 .container-main .contact-selling {
     margin-top: 40px;
 }
@@ -282,6 +298,7 @@ div input:last-of-type{
 
 .container-main .section-3 p {
     padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 /* SECTION 4 */
@@ -313,71 +330,172 @@ div input:last-of-type{
 
 }
 
-.section-5 .square-box .small-square {
+[class^="small-square"] {
     width: 50%;
     height: 50%;
-    background-color:#A2D39B;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.section-5 .square-box .small-square2 {
-    width: 50%;
-    height: 50%;
-    background-color: #61082B;
-
+.section-5 .square-box .small-square {  
+    background-color:#A2D39B;  
+    border: 15px solid #D1E9CD;
+}
+.section-5 .square-box .small-square2 {  
+    background-color:#61082B;
+}
+.section-5 .square-box .small-square3 {   
+    background-color:#0093CE;
+}
+.section-5 .square-box .small-square4 {  
+    background-color:#FF1C1C;
+}
+.section-5 .center-box {
+    background-color:#F5F5F5;
+}
+.section-5 .square-box .small-square5 {
+    background-color:#D5001F; 
+}
+.section-5 .square-box .small-square6 {
+    background-color:#B4D0E7;
+}
+.section-5 .square-box .small-square7 {
+    background-color:#0D2481;
+}
+.section-5 .square-box .small-square8 {
+    background-color:#FFD830;
 }
 
-.section-5 .square-box .small-square3 {
+img[src$=".svg"] {
     width: 50%;
     height: 50%;
-    background-color: #0093CE;
-
+    filter: invert(1);
 }
 
-.section-5 .square-box .small-square4 {
-    width: 50%;
-    height: 50%;
-    background-color: #FF1C1C;
-
+#center-img {
+    filter: none;
 }
 
 .section-5 .center-box {
-    background-color: #F5F5F5;
-}
-
-.section-5 .square-box .small-square5 {
-    width: 50%;
-    height: 50%;
-    background-color:#D5001F;
-    
-}
-
-.section-5 .square-box .small-square6 {
-    width: 50%;
-    height: 50%;
-    background-color: #B4D0E7;
-
-}
-
-.section-5 .square-box .small-square7 {
-    width: 50%;
-    height: 50%;
-    background-color: #0D2481;
-
-}
-
-.section-5 .square-box .small-square8 {
-    width: 50%;
-    height: 50%;
-    background-color: #FFD830;
-
-}
-
-.section-5 img {
     display: flex;
-    padding: 50px;
+    padding: 0 40px;
+    padding-bottom: 300px;
 }
-  
+
+.section-5 .center-box p{
+    padding-bottom: 30px;
+}
+
+/* SECTION 6 */
+
+.section-6 {
+    padding: 75px 0;
+    background-color: #B4D0E7;
+}
+
+.section-6 .contact-info {
+    border: none;
+    display: flex;
+    align-items: baseline;
+}
+
+.section-6 .contact-info h1 {
+    width: 65%;
+    color: #61072A;
+}
+
+.section-6 .contact-info button {
+    width: 100%;
+    padding: 10px 25px;
+    background-color: white;
+    color: black;
+
+}
+
+
+/* SECTION 7 */
+
+.section-7 {
+    margin-top: 150px;
+}
+
+.section-7 .container-main div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 0;
+    padding-right: 35px;
+}
+
+/* FOOTER */
+
+footer {
+    margin-top: 150px;
+    background-color: black;
+    color: white;
+}
+
+#footer-top {
+    padding: 75px 0;
+}
+
+.footer-columns {
+    display: flex;
+}
+
+.footer-columns > * {
+    width: 20%;
+}
+
+.footer-columns > * ul {
+    list-style: none;
+}
+
+.footer-columns > * ul li a {
+    display: inline-block;
+    padding: 10px 0;
+    color: white;
+    text-decoration: none;
+    font-size: 0.95rem;
+}
+
+.footer-columns > * h2 {
+    padding-bottom: 20px;
+}
+
+#footer-bottom {
+    padding: 40px 0;
+}
+
+.small-line {
+    border: 1px solid grey;
+    width: 10%;
+}
+
+#footer-language {
+    color: grey;
+}
+
+#footer-language > * {
+    margin-right: 5px;
+}
+
+#footer-language .fa-sort-up {
+    position: relative;
+    top: 5px;
+    right: 5px;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
