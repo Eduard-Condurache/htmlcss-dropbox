@@ -19,6 +19,11 @@
     margin: 0 auto;
 }
 
+.my-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -25px;
+}
 
 .my-col-30 {
     width: 30%;
@@ -39,6 +44,7 @@
 .col-1-3 {
     width: calc(100% / 3)
 }
+
 
 img {
     max-width: 100%;
