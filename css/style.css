@@ -22,7 +22,6 @@
 .my-row {
     display: flex;
     flex-wrap: wrap;
-    margin: 0 -25px;
 }
 
 .my-col-30 {
@@ -345,6 +344,14 @@ input[type="radio"]:checked + span:before {
 .container-main .section-3 p {
     padding-top: 30px;
     padding-bottom: 30px;
+}
+
+.section-3 .col-1-3 {
+    padding: 0 25px;
+}
+
+.section-3 .my-row {
+    margin: 0 -25px;
 }
 
 /* SECTION 4 */
